@@ -1,0 +1,263 @@
+/*!
+ * Copyright Adhika Widya Prastomo
+ */
+
+ .py-60{
+   padding-top: 60px;
+   padding-bottom: 60px;
+ }
+ .appHeader {
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: env(safe-area-inset-top);
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: #FFF;
+  color: #141515;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.08);
+}
+
+.appHeader .left, .appHeader .right {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.appHeader .left {
+  left: 8px;
+  top: 0;
+}
+
+.appHeader .right {
+  right: 8px;
+  top: 0;
+}
+.appHeader .searchBoxhalf{
+  display: flex;
+  margin-right: 160px;
+  margin-left: 60px;
+}
+
+.appHeader .appheaderTitle{
+  display: flex;
+  font-size: 1.25rem;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.appHeader .left .headerButton, .appHeader .right .headerButton {
+  min-width: 36px;
+  height: 56px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.home-nostick{
+  top: 45px !important;
+}
+
+ .bottomNav {
+  min-height: 60px;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #E1E1E1;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.bottomNav .item {
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 0;
+  text-align: center;
+  width: 100%;
+  height: 56px;
+  line-height: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bottomNav .item.active{
+  color: #8D3E96;
+}
+
+.bottomNav img {
+  display: inline-flex;
+  margin: 1px auto 3px auto;
+  line-height: 1em;
+  transition: 0.1s all;
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+
+.toast-fix{
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  max-width: 100%;
+  z-index: 999;
+}
+#npl-carousel .carousel-cell {
+  width: 100%;
+  margin-right: 30px;
+  border-radius: 10px;
+  counter-increment: carousel-cell;
+}
+
+#npl-carousel .flickity-page-dots{
+  bottom: 0;
+}
+
+#npl-carousel .flickity-page-dots .dot.is-selected{
+  width: 30px;
+  background: #82BD2A;
+  border-radius: 5px;
+}
+
+.modalbox .modal-dialog {
+  transform: translate(0, 0) !important;
+  min-width: 100%;
+  margin: 0;
+  transition: 0.5s all !important;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: env(safe-area-inset-top);
+}
+.modalbox .modal-content{
+  min-height: 100%;
+}
+
+.table-scroll{
+  max-height: 150px;
+  width: 100%;
+  overflow: auto;
+  display:inline-block;
+}
+
+.flickity-button{
+  display: none;
+}
+
+
+#ikutlelang-carousel .carousel-cell, #titiplelang-carousel .carousel-cell{
+  width: 60% !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px !important;
+  counter-increment: carousel-cell;
+}
+
+#blog-carousel .carousel-cell{
+  width: 70% !important;
+  height: 260px;
+  margin-bottom: 1rem;
+  margin-right: 15px;
+  counter-increment: carousel-cell;
+}
+
+
+#banner-carousel-search .carousel-cell{
+  height: 80px !important;
+}
+
+.slider-wraper{
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.slider-wraper::-webkit-scrollbar {
+  display: none;
+}
+
+.chip.active, .chip:hover, .chip.active span, .chip:hover span{
+  background-color: #B77FBC !important;
+  color: #FFFFFF !important;
+}
+
+
+#online-auction-carousel .carousel-cell {
+  width: 175px !important;
+  height: 300px !important;
+  margin-right: 15px;
+  counter-increment: carousel-cell;
+}
+
+#online-auction-carousel .carousel-cell .title-objek-lelang{
+  height: 36px !important;
+}
+
+#objek-carousel .carousel-cell {
+  width: 180px !important;
+  height: 320px !important;
+  margin-right: 12px;
+  counter-increment: carousel-cell;
+}
+
+.title-objek-lelang{
+  height: 34px !important;
+}
+
+#testimoni-carousel .flickity-page-dots .dot.is-selected{
+  width: 30px;
+  background: #A3CF62;
+  border-radius: 5px;
+}
+
+.compare-box{
+  width: 100%;
+  right: unset!important;
+  bottom: 60px;
+}
+
+.flickity-fullscreen-button{
+  display: block;
+}
+
+#story-carousel .carousel-cell {
+  width: 150px;
+  height: 240px;
+  margin-right: 15px;
+  border-radius: 10px;
+  counter-increment: carousel-cell;
+}
+
+.btn-avatar{
+  width: 30px;
+  height: 30px;
+}
+
+.appnavHeader{
+  background: white;
+  position: fixed;
+  z-index: 3;
+  top: 56px;
+  width: 100%;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1), 0 1px 3px 0 rgba(0,0,0,0.08);
+}
+
+#misipoin-carousel .carousel-cell {
+  width: 60% !important;
+  margin-right: 15px;
+  counter-increment: carousel-cell;
+}
